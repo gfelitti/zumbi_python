@@ -5,5 +5,5 @@ while True:
     s = input("Escreva qualquer palavra (quit para parar): ")
     if s == "quit":
         break
-    print("Sua palavra tem %d letras" %len(s))
+    print("Sua expressao tem %d letras" %len(s))
     print()
