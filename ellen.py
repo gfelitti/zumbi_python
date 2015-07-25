@@ -3,7 +3,7 @@ __author__ = 'guilhermefelitti'
 chat = True
 
 while chat:
-    fala = str(input("Fale alguma coisa, Ellen (ou tchau para sair): "))
+    fala = str(input("Fale alguma coisa, Ellen (ou tchau para sair): ")).lower()
     if fala == "Gigi":
         print ("Guilherme: Oi")
         print()
