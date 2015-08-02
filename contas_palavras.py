@@ -15,7 +15,5 @@ for p in texto:
     else:
         dic[p] += 1
 
-print(dic["rabbit"])
-print(dic["alice"])
-print(dic["get"])
+print(dic["PALAVRA"])
 arquivo.close()
