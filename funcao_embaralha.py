@@ -1,4 +1,5 @@
 __author__ = 'guilhermefelitti'
+chat = True
 
 def embaralha(x):
     import random
@@ -6,12 +7,7 @@ def embaralha(x):
     random.shuffle(lista)
     return "".join(lista)
 
-print(embaralha("abacaxi"))
-print(embaralha("abacaxi"))
-print(embaralha("abacaxi"))
-print(embaralha("abacaxi"))
-print(embaralha("abacaxi"))
-print(embaralha("abacaxi"))
-
+while chat == True:
+    print(embaralha(input("Digite qualquer palavra:")))
 
 
