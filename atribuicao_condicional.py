@@ -37,5 +37,5 @@ while x < len(a):
     else:
         troca = troca + a[x]
     x+=1
-    
+
 print(troca)
