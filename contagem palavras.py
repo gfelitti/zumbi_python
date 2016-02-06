@@ -15,4 +15,6 @@ for p in texto:
     else:
         dic[p] += 1
 
+print(dic["hole"])
 print("Alice aparece %s vezes" %dic["alice"])
+arq.close()
