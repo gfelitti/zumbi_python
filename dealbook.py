@@ -3,7 +3,7 @@ import csv
 
 f1 = open('db2.csv', 'r')
 f2 = open('db1.csv', 'r')
-f3 = open('results1.csv', 'w')
+f3 = open('DB3.csv', 'w')
 
 c1 = csv.reader(f1)
 c2 = csv.reader(f2)

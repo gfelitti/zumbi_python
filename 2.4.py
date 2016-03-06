@@ -1,3 +1,4 @@
+# coding=UTF-8
 __author__ = 'guilhermefelitti'
 a = int(input("Número 1:"))
 b = int(input("Número 2:"))

@@ -1,7 +1,7 @@
+# coding=UTF-8
 __author__ = 'guilhermefelitti'
 texto = str(input("Digite aqui quatro palavras seguidas: ")
-
-lista = []
+lista =[]
 
 texto = texto.lower()
 quebra = texto.split(" ")
